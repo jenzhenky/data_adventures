@@ -2,10 +2,6 @@
 title: "Data Adventures"
 layout: splash
 permalink: /
-header:
-  overlay_color: "#000"
-  overlay_filter: "0"
-  overlay_image: /assets/images/header.jpg
 intro: 
   - excerpt: 'See what I've been working on. Centered with `type="center"`'
 feature_row:

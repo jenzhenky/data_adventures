@@ -273,4 +273,4 @@ defaults:
 collections:
   portfolio:
     output: true
-    permalink: /projects/
+    permalink: /:collection/:path/

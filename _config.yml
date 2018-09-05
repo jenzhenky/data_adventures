@@ -268,3 +268,9 @@ defaults:
       comments: # true
       share: true
       related: true
+
+# Portfolio Page
+collections:
+  portfolio:
+    output: true
+    permalink: /projects/

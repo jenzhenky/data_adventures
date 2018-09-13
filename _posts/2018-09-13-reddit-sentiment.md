@@ -27,11 +27,7 @@ To categorize submissions as positive, negative, and neutral, I had to set senti
 
 While the sentiment property was usually correct, it wasn't perfect. Below are samples of some of the most positive (1.0) and most negative (-1.0) submissions. Most are correctly categorized, but there were incorrect cases involving colloquialisms (e.g., "holy crap congrats!!") or a very positive or negative word (e.g., "r/lasat is your best bet…").
 
-<figure class="half">
-    <a href="/assets/images/reddit_top_positive.png"><img src="reddit_top_positive.png"></a>
-    <a href="/assets/images/reddit_top_negative.png"><img src="reddit_top_negative.png"></a>
-    <figcaption>A sample of some of the most positively and negatively scoring submissions</figcaption>
-</figure>
+*{% include figure image_path="/assets/images/reddit_top.png" alt="Sample of submissions" caption="A sample of some of the most positively and negatively scoring submissions" %}*
 
 ### How has sentiment changed with time?
 

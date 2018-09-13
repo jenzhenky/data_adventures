@@ -7,9 +7,9 @@ header:
 
 Earlier this year I was sucked into the rabbit hole of the r/lawschooladmissions subreddit. I had a few close friends who were waiting to hear back from schools and as I casually started looking up their odds I discovered this very active community. It felt like everyone was in this together - they would diligently report updates from schools, compare them to when they were posted last year, and they even have a subreddit "dad" who answers many of their questions and offers guidance. But even in this sense of community law school admissions are stressful and there were stretches of very anxious posts as deadlines approached and pressure grew.
 
-I wanted to dedicate this project to the r/lawschooladmissions community and see if I could use Python to gauge how people feel during the admissions process. To do that, I scraped all of the posts and comments from the subreddit and performed a sentiment analysis to see how many are positive vs negative and how that has changed over time.
+I wanted to dedicate this project to the r/lawschooladmissions community and see if I could use Python to gauge how people feel during the admissions process. To do that, I scraped all of the posts and comments from the subreddit and performed a sentiment analysis to see how many are positive versus negative and how that has changed over time.
 
-*Check out my code for this project [here](https://github.com/jenzhenky/reddit_sentiment_analysis.png).*
+*Check out my code for this project [here](https://github.com/jenzhenky/reddit_sentiment_analysis).*
 
 ### How do you quantify sentiment? 
 

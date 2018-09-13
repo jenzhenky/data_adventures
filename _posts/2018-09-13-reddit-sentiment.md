@@ -5,7 +5,7 @@ header:
 ---
 *Sentiment analysis on all submissions to r/lawschooladmissions.*
 
-{% include figure image_path="/assets/images/reddit.png" alt="Reddit analysis" caption="Examining Reddit via [DataStories](https://blog.datastories.com/blog/reddit-front-page)" %}
+{% include figure image_path="/assets/images/reddit.png" alt="Reddit analysis" caption="Taking a closer look at Reddit via [DataStories](https://blog.datastories.com/blog/reddit-front-page)" %}
 
 Earlier this year I was sucked into the rabbit hole of the r/lawschooladmissions subreddit. I had a few close friends who were waiting to hear back from schools and as I casually started looking up their odds I discovered this very active community. It felt like everyone was in this together - they would diligently report updates from schools, compare them to when they were posted last year, and they even have a subreddit "dad" who answers many of their questions and offers guidance. But even in this sense of community law school admissions are stressful and there were stretches of very anxious posts as deadlines approached and pressure grew.
 

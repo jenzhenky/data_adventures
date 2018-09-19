@@ -3,7 +3,7 @@ title: Reddit Sentiment Analysis
 header:
   teaser: /assets/images/reddit_teaser.png
 ---
-*Sentiment analysis on all submissions to r/lawschooladmissions.*
+*Sentiment analysis on all submissions to r/lawschooladmissions*
 
 {% include figure image_path="/assets/images/reddit.png" alt="Reddit analysis" caption="Taking a closer look at Reddit via [DataStories](https://blog.datastories.com/blog/reddit-front-page)" %}
 

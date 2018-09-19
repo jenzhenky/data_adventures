@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author:
   name             : "Jennifer Ky"
-  avatar           : "https://avatars3.githubusercontent.com/u/42653507?s=400&v=4" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/headshot.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Strategic, outcomes-oriented data analyst with experience in finance and startups."
   location         : 
   email            :

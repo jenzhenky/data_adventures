@@ -3,13 +3,13 @@ title: Reddit Sentiment Analysis
 header:
   teaser: /assets/images/reddit_teaser.png
 ---
-*Sentiment analysis on all submissions to r/lawschooladmissions*
+*How does sentiment change during the law school admissions process?*
 
 {% include figure image_path="/assets/images/reddit.png" alt="Reddit analysis" caption="Taking a closer look at Reddit via [DataStories](https://blog.datastories.com/blog/reddit-front-page)" %}
 
 Earlier this year, I was sucked into the rabbit hole of the r/lawschooladmissions subreddit. It felt like everyone was in this together. They would diligently report updates from schools, compare posts from each year, and they even have a subreddit "dad" who offers support and guidance. But even in this sense of community, law school admissions are fundamentally stressful and there were stretches of anxious posts as deadlines approached.
 
-I wanted to dedicate this project to the r/lawschooladmissions community and use Python to gauge how people feel during the admissions process. To do that, I scraped all of the posts and comments from the subreddit. Then, I performed a sentiment analysis to see how many of these submissions are positive versus negative and how that has changed over time.
+I wanted to dedicate this project to the r/lawschooladmissions community and investigate: how does sentiment change during the law school admissions process? To do this, I scraped all of the posts and comments from the subreddit. Then, I performed a sentiment analysis to see how many of these submissions are positive versus negative and how that has changed over time. 
 
 *Check out my code for this project [here](https://github.com/jenzhenky/reddit_sentiment_analysis).*
 

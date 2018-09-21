@@ -1,4 +1,8 @@
-
+---
+title: 'Investigating Law & Order: SVU'
+header:
+  teaser: /assets/images/svu-opening-teaser.jpg
+---
 *How often do actors appear on SVU?*
 
 {% include figure image_path="/assets/images/svu-opening.jpg" alt="SVU Opening Credits" caption="SVU opening credits via [Wikipedia](https://en.wikipedia.org/wiki/Law_%26_Order:_Special_Victims_Unit#/media/File:SVUopening.jpg)" %}

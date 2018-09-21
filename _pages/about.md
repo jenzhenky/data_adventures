@@ -1,5 +1,6 @@
 ---
 permalink: /about/
+title: "About"
 ---
 
 I'm a data analyst living in New York City. Right now, I'm learning Python and data science by working on the projects on this blog and my [Github](https://github.com/jenzhenky). My goal in this data journey is to figure out what drives businesses and to inform their strategic decisions. 

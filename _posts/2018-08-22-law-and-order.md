@@ -1,5 +1,5 @@
 ---
-title: 'Investigating Law & Order: SVU'
+title: 'Law & Order SVU: Investigating the Cast'
 header:
   teaser: /assets/images/svu-opening-teaser.jpg
 ---
@@ -7,7 +7,7 @@ header:
 
 {% include figure image_path="/assets/images/svu-opening.jpg" alt="SVU Opening Credits" caption="SVU opening credits via [Wikipedia](https://en.wikipedia.org/wiki/Law_%26_Order:_Special_Victims_Unit#/media/File:SVUopening.jpg)" %}
 
-One of my guilty pleasures is binge-watching *Law and Order: Special Victims Unit* (SVU). I find its repetitive nature to be meditative and it's fun to recognize the New York sights. But I've also recognized a lot of familiar faces and wondered: how often do actors actually reappear on the show?
+One of my guilty pleasures is binge-watching *Law & Order: Special Victims Unit* (SVU). I find its repetitive nature to be meditative and it's fun to recognize the New York sights. But I've also recognized a lot of familiar faces and wondered: how often do actors actually reappear on the show?
 
 There are a lot of episodes (one season per year since 1999), so this seemed like a great introductory Python project. In this post, I gathered data with web scraping, cleaned data sets, and analyzed data to delve into some of my questions about SVU. 
 

@@ -1,5 +1,5 @@
 ---
-title: Law School Blues: A Sentiment Analysis on the Admissions Cycle
+title: 'Law School Blues: A Sentiment Analysis on the Admissions Cycle'
 header:
   teaser: /assets/images/reddit_teaser.png
 ---

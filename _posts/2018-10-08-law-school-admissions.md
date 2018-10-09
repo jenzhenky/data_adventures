@@ -62,7 +62,7 @@ Accuracy was measured in terms of mean absolute error (MAE), which is the averag
 
 These models were trained with our dataset and their MAEs are listed below. The logistic regression and random forest models were the most accurate, with an MAE of 0.256 and 0.273 respectively. 
 
-{% include figure image_path="/assets/images/model-mae.jpg" alt="Logistic regression and random forest models have the lowest error" caption="Logistic regression and random forest models have the lowest error" %}
+{% include figure image_path="/assets/images/model-mae.png" alt="Logistic regression and random forest models have the lowest error" caption="Logistic regression and random forest models have the lowest error" %}
 
 ### Can the accuracy of our model be improved?
 

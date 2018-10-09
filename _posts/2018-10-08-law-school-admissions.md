@@ -22,7 +22,7 @@ I used several machine learning models which use statistics to "learn" about  da
 	4) Evaluating models for accuracy in predicting the target (law school admissions outcomes)
 	5) Fine-tuning models to increase accuracy
 
-The dataset used in the project was downloaded from [MyLSN](mylsn.info) which compiles the data from [Law School Numbers (LSN)](http://lawschoolnumbers.com/). This data is all self-reported by applicants and includes over 400,000 applications from 42,000 applicants. While this wealth of data is exciting, it also carries some caveats. Because this data is self-reported, it may not be accurate and it is not representative of the full pool of applicants. 
+The dataset used in the project was downloaded from [MyLSN](http://mylsn.info/) which compiles the data from [Law School Numbers (LSN)](http://lawschoolnumbers.com/). This data is all self-reported by applicants and includes over 400,000 applications from 42,000 applicants. While this wealth of data is exciting, it also carries some caveats. Because this data is self-reported, it may not be accurate and it is not representative of the full pool of applicants. 
 
 ### How does the data look?
 To get familiar with the dataset, I performed an exploratory data analysis. See below for the distribution of LSAT scores and the percentage of applicants admitted by LSAT score. The latter is in line with expectations, with higher LSAT scores correlating with higher admission rates. Similarly, higher GPAs are correlated with higher admission rates.

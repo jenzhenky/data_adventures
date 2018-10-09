@@ -47,18 +47,18 @@ Applicants applied to 215 law schools. Below is a histogram with the distributio
 Features are the data inputs that will be used in the machine learning models. More data generally improves the accuracy of a model, but this data should be of high quality. An important consideration in quality is null (missing) values. Features with too many null values were excluded from the model. 
 
 The features selected for the model were: LSAT score, GPA, law school, and race. In addition to these, additional features were created in a process called feature engineering. These features are based on contextual knowledge and may improve model performance. In this case, the features are: 
-	- A combined LSAT-GPA score: captures academic performance in one figure with LSAT scores and GPAs evenly weighted
-	- In state: indicates if the applicant is applying to a school that is in-state
-	- Applicant count level: indicates if the school receives a lot of applications, according to this data set
+- A combined LSAT-GPA score: captures academic performance in one figure with LSAT scores and GPAs evenly weighted
+- In state: indicates if the applicant is applying to a school that is in-state
+- Applicant count level: indicates if the school receives a lot of applications, according to this data set
 	
 ### Which model predicts admissions outcomes with the highest accuracy?
 
 Accuracy was measured in terms of mean absolute error (MAE), which is the average of the difference between the predicted target and actual target. Five machine learning models from scikit-learn were trained with our data:
-	- **Decision tree**: This model recursively splits the data set into homogenous sets. This resembles a tree where each node contains criteria (e.g., LSAT score) that splits the tree into branches. Each branch terminates at a leaf with the prediction target (e.g., admissions outcome).
-	- **Random forest**: This model is a collection of decision trees which combines their outputs to improve the accuracy of its predictions.
-	- **Logistic regression**: This model predicts the probability of a target by fitting data to a logistic function. 
-	- **KNN (k-Nearest Neighbors)**: This model stores all data points and makes predictions based on similarity to existing data points.
-	- **Naive Bayes**: This model assumes all features are independent to calculate the probability of an outcome.
+- **Decision tree**: This model recursively splits the data set into homogenous sets. This resembles a tree where each node contains criteria (e.g., LSAT score) that splits the tree into branches. Each branch terminates at a leaf with the prediction target (e.g., admissions outcome).
+- **Random forest**: This model is a collection of decision trees which combines their outputs to improve the accuracy of its predictions.
+- **Logistic regression**: This model predicts the probability of a target by fitting data to a logistic function. 
+- **KNN (k-Nearest Neighbors)**: This model stores all data points and makes predictions based on similarity to existing data points.
+- **Naive Bayes**: This model assumes all features are independent to calculate the probability of an outcome.
 
 These models were trained with our dataset and their MAEs are listed below. The logistic regression and random forest models were the most accurate, with an MAE of 0.256 and 0.273 respectively. 
 

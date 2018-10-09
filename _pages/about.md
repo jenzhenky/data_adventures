@@ -5,7 +5,7 @@ title: "About"
 
 I'm a data scientist living in New York City. Right now, I'm learning Python and data science by working on the projects on this blog and my [Github](https://github.com/jenzhenky).
 
-My interest in data began when I was in finance and analyzed solar energy datasets as a leading indicator in investment research. When I worked in operations at a startup, I collected data to finetune the company's marketing campaign and improve client outreach. By learning Python, I hope to expand my analytical toolkit and help businesses make smarter strategic decisions.
+My interest in data began when I was in finance and analyzed solar energy datasets as a leading indicator in investment research. When I worked in operations at a startup, I collected data to fine-tune the company's marketing campaign and improve client outreach. By learning Python, I hope to expand my analytical toolkit and help businesses make smarter strategic decisions.
 
 ### More about me…
 - In 2017, I was the Head of Operations at [Spring Health](https://www.springhealth.com/), an early-stage startup for mental health services. I established clinical and operational protocols, created the company's first marketing campaign, and managed client accounts.

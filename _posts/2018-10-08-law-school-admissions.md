@@ -60,16 +60,16 @@ Accuracy was measured in terms of mean absolute error (MAE), which is the averag
 - **KNN (k-Nearest Neighbors)**: This model stores all data points and makes predictions based on similarity to existing data points.
 - **Naive Bayes**: This model assumes all features are independent to calculate the probability of an outcome.
 
-These models were trained with our dataset and their MAEs are listed below. The logistic regression and random forest models were the most accurate, with an MAE of 0.256 and 0.273 respectively. 
+These models were trained with our dataset and their MAEs are listed below. The logistic regression and random forest models were the most accurate, with an MAE of 0.256 and 0.275 respectively. 
 
 {% include figure image_path="/assets/images/model-mae.png" alt="Logistic regression and random forest models have the lowest error" caption="Logistic regression and random forest models have the lowest error" %}
 
 ### Can the accuracy of our model be improved?
 
-Always! Models can be improved by iteratively adjusting features and model parameters. To sanity check the features, feature importance was calculated for the random forest model (see below). Larger numbers correlate with greater importance and, as expected, GPA and LSAT were the most important features. They were followed by applicant_count_level and the three most competitive law schools: Stanford, Yale, and Harvard.
+Models can be improved by iteratively adjusting features and model parameters. To sanity check the features, feature importance was calculated for the random forest model (see below). Larger numbers correlate with greater importance and, as expected, GPA and LSAT were the most important features. They were followed by applicant_count_level and the three most competitive law schools: Stanford, Yale, and Harvard.
 
 {% include figure image_path="/assets/images/feature-importance.png" alt="The most important features" caption="The most important features in the random forest model" %}
 
 For the random forest model, model parameters can be optimized as a balance between resources (time, processing power) and accuracy. The two parameters that were optimized were n_estimators (the number of decision trees) and max_features (the number of features considered when splitting). 
 
-The models were run for a list of values for each parameter and an optimized value was selected for each. In this case, n_estimators was optimized at 100 and max_features at 50. These optimized parameters were used together in the random forest model which had a MAE of 0.26, which represents 74% accuracy.
+The models were run for a list of values for each parameter and an optimized value was selected for each. In this case, n_estimators was optimized at 100 and max_features at 50. These optimized parameters were used together in the random forest model which had a MAE of 0.26, which represents 74% accuracy. This represents a 1.5 percentage point improvement in accuracy just from tweaking model parameters. While this figure is small, future iterations of this project could improve accuracy through ensemble methods, which combine machine learning models.
